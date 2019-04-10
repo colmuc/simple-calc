@@ -1,0 +1,15 @@
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+
+    <Page.actionBar>
+        <ActionBar title="My App" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+ 
+    <StackLayout class="p-20">
+        <Label text="Enter your calculation" class="h2 text-center"/>
+        <TextField hint="Enter here..." padding="10"></TextField>
+        <Button padding="10" class="btn btn-primary" text="Submit" onTap="{{onButtonTap}}"></Button>
+  
+    </StackLayout>
+</Page>
